@@ -18,9 +18,9 @@
 		A0267761268AC0FA00DB1EDE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267760268AC0FA00DB1EDE /* Webservice.swift */; };
 		A0267767268AC12B00DB1EDE /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267765268AC12B00DB1EDE /* HttpMethod.swift */; };
 		A0267768268AC12B00DB1EDE /* HttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267766268AC12B00DB1EDE /* HttpStatus.swift */; };
-		A0267771268AC1E700DB1EDE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267770268AC1E700DB1EDE /* Endpoints.swift */; };
 		A0267777268AC25100DB1EDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267776268AC25100DB1EDE /* User.swift */; };
 		A026777C268AC27300DB1EDE /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026777B268AC27300DB1EDE /* Address.swift */; };
+		A0267781268AD90300DB1EDE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267780268AD90300DB1EDE /* Endpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 		A0267760268AC0FA00DB1EDE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		A0267765268AC12B00DB1EDE /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		A0267766268AC12B00DB1EDE /* HttpStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpStatus.swift; sourceTree = "<group>"; };
-		A0267770268AC1E700DB1EDE /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		A0267776268AC25100DB1EDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A026777B268AC27300DB1EDE /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		A0267780268AD90300DB1EDE /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +154,7 @@
 				A0267765268AC12B00DB1EDE /* HttpMethod.swift */,
 				A0267766268AC12B00DB1EDE /* HttpStatus.swift */,
 				A0267760268AC0FA00DB1EDE /* Webservice.swift */,
-				A0267770268AC1E700DB1EDE /* Endpoints.swift */,
+				A0267780268AD90300DB1EDE /* Endpoints.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -320,10 +320,10 @@
 				A0267732268AAF6700DB1EDE /* ViewController.swift in Sources */,
 				A026772E268AAF6700DB1EDE /* AppDelegate.swift in Sources */,
 				A0267767268AC12B00DB1EDE /* HttpMethod.swift in Sources */,
-				A0267771268AC1E700DB1EDE /* Endpoints.swift in Sources */,
 				A0267777268AC25100DB1EDE /* User.swift in Sources */,
 				A0267761268AC0FA00DB1EDE /* Webservice.swift in Sources */,
 				A0267730268AAF6700DB1EDE /* SceneDelegate.swift in Sources */,
+				A0267781268AD90300DB1EDE /* Endpoints.swift in Sources */,
 				A0267768268AC12B00DB1EDE /* HttpStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

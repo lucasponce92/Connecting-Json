@@ -15,6 +15,12 @@
 		A026773A268AAF6900DB1EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0267738268AAF6900DB1EDE /* LaunchScreen.storyboard */; };
 		A0267745268AAF6A00DB1EDE /* Connecting_JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267744268AAF6A00DB1EDE /* Connecting_JsonTests.swift */; };
 		A0267750268AAF6A00DB1EDE /* Connecting_JsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026774F268AAF6A00DB1EDE /* Connecting_JsonUITests.swift */; };
+		A0267761268AC0FA00DB1EDE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267760268AC0FA00DB1EDE /* Webservice.swift */; };
+		A0267767268AC12B00DB1EDE /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267765268AC12B00DB1EDE /* HttpMethod.swift */; };
+		A0267768268AC12B00DB1EDE /* HttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267766268AC12B00DB1EDE /* HttpStatus.swift */; };
+		A0267771268AC1E700DB1EDE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267770268AC1E700DB1EDE /* Endpoints.swift */; };
+		A0267777268AC25100DB1EDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267776268AC25100DB1EDE /* User.swift */; };
+		A026777C268AC27300DB1EDE /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026777B268AC27300DB1EDE /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		A026774B268AAF6A00DB1EDE /* Connecting JsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connecting JsonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A026774F268AAF6A00DB1EDE /* Connecting_JsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connecting_JsonUITests.swift; sourceTree = "<group>"; };
 		A0267751268AAF6A00DB1EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0267760268AC0FA00DB1EDE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		A0267765268AC12B00DB1EDE /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		A0267766268AC12B00DB1EDE /* HttpStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpStatus.swift; sourceTree = "<group>"; };
+		A0267770268AC1E700DB1EDE /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		A0267776268AC25100DB1EDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A026777B268AC27300DB1EDE /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,12 @@
 		A026772C268AAF6700DB1EDE /* Connecting Json */ = {
 			isa = PBXGroup;
 			children = (
-				A026772D268AAF6700DB1EDE /* AppDelegate.swift */,
-				A026772F268AAF6700DB1EDE /* SceneDelegate.swift */,
-				A0267731268AAF6700DB1EDE /* ViewController.swift */,
-				A0267733268AAF6700DB1EDE /* Main.storyboard */,
-				A0267736268AAF6900DB1EDE /* Assets.xcassets */,
-				A0267738268AAF6900DB1EDE /* LaunchScreen.storyboard */,
 				A026773B268AAF6900DB1EDE /* Info.plist */,
+				A0267775268AC22900DB1EDE /* Model */,
+				A026776F268AC19A00DB1EDE /* Controller */,
+				A026776E268AC15D00DB1EDE /* View */,
+				A026776D268AC14900DB1EDE /* API */,
+				A026776C268AC13100DB1EDE /* Supporting files */,
 			);
 			path = "Connecting Json";
 			sourceTree = "<group>";
@@ -126,6 +137,53 @@
 				A0267751268AAF6A00DB1EDE /* Info.plist */,
 			);
 			path = "Connecting JsonUITests";
+			sourceTree = "<group>";
+		};
+		A026776C268AC13100DB1EDE /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A026772D268AAF6700DB1EDE /* AppDelegate.swift */,
+				A026772F268AAF6700DB1EDE /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A026776D268AC14900DB1EDE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A0267765268AC12B00DB1EDE /* HttpMethod.swift */,
+				A0267766268AC12B00DB1EDE /* HttpStatus.swift */,
+				A0267760268AC0FA00DB1EDE /* Webservice.swift */,
+				A0267770268AC1E700DB1EDE /* Endpoints.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A026776E268AC15D00DB1EDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0267733268AAF6700DB1EDE /* Main.storyboard */,
+				A0267736268AAF6900DB1EDE /* Assets.xcassets */,
+				A0267738268AAF6900DB1EDE /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A026776F268AC19A00DB1EDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0267731268AAF6700DB1EDE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0267775268AC22900DB1EDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0267776268AC25100DB1EDE /* User.swift */,
+				A026777B268AC27300DB1EDE /* Address.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A026777C268AC27300DB1EDE /* Address.swift in Sources */,
 				A0267732268AAF6700DB1EDE /* ViewController.swift in Sources */,
 				A026772E268AAF6700DB1EDE /* AppDelegate.swift in Sources */,
+				A0267767268AC12B00DB1EDE /* HttpMethod.swift in Sources */,
+				A0267771268AC1E700DB1EDE /* Endpoints.swift in Sources */,
+				A0267777268AC25100DB1EDE /* User.swift in Sources */,
+				A0267761268AC0FA00DB1EDE /* Webservice.swift in Sources */,
 				A0267730268AAF6700DB1EDE /* SceneDelegate.swift in Sources */,
+				A0267768268AC12B00DB1EDE /* HttpStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cl.mpsoluciones.Connecting-Json";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cl.mpsoluciones.Connecting-Json";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

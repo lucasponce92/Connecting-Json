@@ -115,6 +115,11 @@ class Endpoints{
 
 ## Webservices
 
+The JSON data I'm getting from the webservice is this one: 
+"{"name":"John","last_name":"Doe","email":"johndoe@mail.com","address":{"street":"the best street","number":"321"}}" 
+
+I generated it using this website https://jsonkeeper.com/ and it generated this link https://jsonkeeper.com/b/F7P0 which is supposed to host my JSON data but I don't know for how long, so if at the moment you're trying to use this code, you're not getting anything from the link, just generate some new JSON data copying the string above and using the website I just mentioned
+
 ```swift
 class Webservice{
     

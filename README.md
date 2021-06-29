@@ -7,8 +7,11 @@ In addition you'll be seeing some MVC (model-view-controller) practices, if you'
 pending...
 
 ##Classes
+
 The first thing we'll do is to define our classes. We will work with User and Address, I wanted to show you how to consume a webservice and decode Json data into classes, using one class inside another class, since I've never seen a tutorial covering this.
+
 ###User
+
 ```swift
 class User: Codable{
     
@@ -54,6 +57,7 @@ class User: Codable{
 ```
 
 ###Address
+
 ```swift
 class Address: Codable{
     
@@ -90,6 +94,7 @@ class Address: Codable{
 ```
 
 ##Endpoints
+
 I highly recomend to separate your code, so in this case I will have a file just to get the endpoints (urls) for my webservices
 
 ```swift
@@ -109,6 +114,7 @@ class Endpoints{
 ```
 
 ##Webservices
+
 ```swift
 class Webservice{
     
@@ -185,6 +191,7 @@ class Webservice{
 ```
 
 ##Usage
+
 ```swift
 class ViewController: UIViewController {
     

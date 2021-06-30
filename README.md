@@ -1,6 +1,6 @@
 # JSON and Swift project
-In this project I'm sharing with you the way I approach connecting my mobile apps with APIs using webservices and Json data
-In addition you'll be seeing some MVC (model-view-controller) practices, if you're not familiar with MVC I highly recommend you to study a little bit and implement it into your programming.
+In this project I'm sharing with you the way I approach connecting my mobile apps with APIs using webservices and Json data.
+In addition you'll be seeing some MVC (model-view-controller) practices, if you're not familiar with MVC I highly recommend you to study a little bit and implement it into your programming, it will save you lot of time and make fixing errors a lot easier.
 
 ## Introduction
 
@@ -9,6 +9,8 @@ pending...
 ## Classes
 
 The first thing we'll do is to define our classes. We will work with User and Address, I wanted to show you how to consume a webservice and decode Json data into classes, using one class inside another class, since I've never seen a tutorial covering this.
+
+We will make subclasses of Codable, so we will be able to decode and encode Json data to our class and vice versa using coding keys and values
 
 ### User
 
